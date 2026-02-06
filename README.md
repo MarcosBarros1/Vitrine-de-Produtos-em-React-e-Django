@@ -23,5 +23,5 @@ python -m venv venv
 
 pip install -r requirements.txt
 python manage.py migrate
-python manage.py createsuperuser # Crie seu login de administrador
+python manage.py createsuperuser # Crie seu login de administrador do Django aqui
 python manage.py runserver
